@@ -23,6 +23,7 @@ import java.awt.GridBagLayout;
  * The Game Of Life Applet.
  * This is the heart of the program. It initializes everything en put it together.
  * @author Edwin Martin
+ * @author Adriano J. Graf
  */
 public class GameOfLife extends Applet implements Runnable, GameOfLifeControlsListener {
 	protected CellGridCanvas gameOfLifeCanvas;
